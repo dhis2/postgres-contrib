@@ -1,0 +1,16 @@
+{
+  "name": "@dhis2/postgres-contrib",
+  "version": "1.0.0",
+  "description": "Postgres Docker image with contrib package",
+  "main": "Dockerfile",
+  "repository": "git@github.com:dhis2/postgres-contrib.git",
+  "author": "Viktor Varland <viktor@dhis2.org>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@dhis2/cli-style": "^6.0.0"
+  },
+  "scripts": {
+    "format": "d2-style text apply"
+  }
+}
