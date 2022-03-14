@@ -1,6 +1,7 @@
 name: "dhis2-docker push"
 
 on:
+  workflow_dispatch:
   schedule:
     # rebuild on the first day of each month
     - cron: "0 0 1 * *"
